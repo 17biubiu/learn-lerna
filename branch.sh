@@ -9,9 +9,12 @@ echo "Shell 传递参数实例！"
 cd ./packages/$1
 pwd
 
-git checkout $2
-git branch
+echo git status
 
+# if [`$2` === 1]
+# then
+#   git add .
+#   git commit -m "`$3`"
+# fi
 
-git add .
-git commit -m 
+# git checkout $4
