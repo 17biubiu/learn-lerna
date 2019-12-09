@@ -1,10 +1,20 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "c": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "devDependencies": {
     "bail": "^1.0.0",
     "browserify": "^16.0.0",
     "chalk": "^3.0.0",
+    "commitizen": "^4.0.3",
+    "cz-lerna-changelog": "^2.0.2",
     "lerna": "^3.19.0",
     "nlcst-test": "^1.0.0",
     "nyc": "^14.0.0",
