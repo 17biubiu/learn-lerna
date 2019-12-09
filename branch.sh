@@ -9,7 +9,7 @@ echo "Shell 传递参数实例！"
 cd ./packages/$1
 pwd
 
-echo git status
+echo `git status --porcelain`
 
 # if [`$2` === 1]
 # then
