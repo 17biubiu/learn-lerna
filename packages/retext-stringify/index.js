@@ -11,8 +11,3 @@ function stringify() {
 function compiler(tree) {
   return toString(tree)
 }
-
-
-function test() {
-  console.log('测试而已')
-}
